@@ -1,0 +1,29 @@
+.carouselBox {
+  position: relative;
+  margin: 4rem auto;
+  height: 50rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.2rem;
+}
+.carouselIcon {
+  cursor: pointer;
+  transition: all 1s;
+}
+.carouselIcon:hover {
+  color: #333333;
+}
+
+.carouselImage {
+  max-height: auto;
+  max-width: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 1;
+}
